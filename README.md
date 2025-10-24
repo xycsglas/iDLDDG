@@ -53,7 +53,9 @@ These command lines will produce feature embeddings for ProtTrans, ESM2 and ESM1
 
 5. Run '4_feature_npy_esm1v_PT.py' and '5_feature_npy_esm2' to get feature embeddings that will be further used to train and evaluate iDLDDG.
 
-   
+# Train iDLDDG
+
+Run 'train_kfold_cross_validation_old.py' please put feature.npy files into 'feature_npy'
 
 
 
