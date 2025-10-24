@@ -61,10 +61,10 @@ This will train iDLDDG using 10-fold cross validation.
 
 To revise model parameters, please refer to file 'model.py'
 
+# Evaluate iDLDDG
 
+Run 'predict.py', chage the model path correspondingly.
 
-
-
-
+You will need to extract features of 'MPD96' to reproduce iDLDDG independent test results. Please refer to section 'Data Preprocessing and Feature Extraction'.
 
 
