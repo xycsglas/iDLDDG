@@ -21,7 +21,7 @@ then install dependencies provided by this repo:
 pip install -r ./requirements.txt
 ```
 
-# Data preprocessing and feature extraction
+# Data Preprocessing and Feature Extraction
 
 <img width="871" height="244" alt="image" src="https://github.com/user-attachments/assets/4a9e7da6-e6e0-41b2-94ff-071e087de3bc" />
 
@@ -56,6 +56,12 @@ These command lines will produce feature embeddings for ProtTrans, ESM2 and ESM1
 # Train iDLDDG
 
 Run 'train_kfold_cross_validation_old.py' please put feature.npy files into 'feature_npy'
+
+This will train iDLDDG using 10-fold cross validation.
+
+To revise model parameters, please refer to file 'model.py'
+
+
 
 
 
