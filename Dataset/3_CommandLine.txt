@@ -1,0 +1,8 @@
+esm1v：
+python /esm-main/scripts/extract.py esm1v_t33_650M_UR90S_1  Data_181.fasta output_path --repr_layers 33 --include per_tok
+
+esm2：
+python /esm-main/scripts/extract.py esm2_t33_650M_UR50D Data_181.fasta output_path --repr_layers 33 --include per_tok
+
+PT:
+python ProtTrans-master/Embedding/prott5_embedder.py --input Data_181.fasta --output output_path/S552_inde_embeddings_181.h5
