@@ -55,7 +55,7 @@ These command lines will produce feature embeddings for ProtTrans, ESM2 and ESM1
 
 # Train iDLDDG
 
-Run 'train_kfold_cross_validation_old.py' please put feature.npy files into 'feature_npy'
+Run 'train_kfold_cross_validation_old.py', please put feature.npy files into 'feature_npy'
 
 This will train iDLDDG using 10-fold cross validation.
 
